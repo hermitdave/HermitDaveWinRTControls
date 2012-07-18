@@ -16,6 +16,7 @@ namespace HermitDaveControls
     {
         TextBox tb = null;
         ListBox lb = null;
+        Grid g = null;
         public AutoCompleteTextBlock()
         {
             this.DefaultStyleKey = typeof(AutoCompleteTextBlock);
@@ -29,6 +30,8 @@ namespace HermitDaveControls
             this.tb = GetTemplateChild("tbChild") as TextBox;
             this.lb = GetTemplateChild("lbChild") as ListBox;
 
+            this.g = GetTemplateChild("spContainer") as Grid;
+
             if (tb != null && this.lb != null)
             {
                 tb.TextChanged += tb_TextChanged;
@@ -36,6 +39,8 @@ namespace HermitDaveControls
 
             if (this.ItemsSource != null)
                 this.lb.ItemsSource = ItemsSource;
+
+            this.g.MaxHeight = this.MaxHeight;
         }
 
         public ICollection<string> ItemsSource 

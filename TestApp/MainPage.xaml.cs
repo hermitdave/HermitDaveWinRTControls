@@ -36,8 +36,13 @@ namespace TestApp
         {
             List<string> names = new List<string>();
             names.Add("hermit");
-            names.Add("emily");
-            names.Add("olivia");
+            names.Add("help");
+            names.Add("him");
+            names.Add("hang");
+            names.Add("his");
+            names.Add("dirty");
+            names.Add("laundry");
+            names.Add("somewhere");
 
             this.actbNames.ItemsSource = names;
         }

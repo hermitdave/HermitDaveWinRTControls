@@ -12,10 +12,15 @@
                         BorderBrush="{TemplateBinding BorderBrush}"
                         BorderThickness="{TemplateBinding BorderThickness}">
                         
-                        <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
-                            <TextBox x:Name="tbChild" HorizontalAlignment="Stretch" />
-                            <ListBox x:Name="lbChild" HorizontalAlignment="Stretch" ItemsSource="{TemplateBinding ItemsSource}" Visibility="Collapsed" Margin="-2, 0"/>
-                        </StackPanel>
+                        <Grid x:Name="spContainer" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            
+                            <TextBox x:Name="tbChild" HorizontalAlignment="Stretch" Grid.Row="0"/>
+                            <ListBox x:Name="lbChild" HorizontalAlignment="Stretch" MaxHeight="150" ItemsSource="{TemplateBinding ItemsSource}" Visibility="Collapsed" Margin="-2, 0" ScrollViewer.VerticalScrollBarVisibility="Auto" Grid.Row="1" />
+                        </Grid>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>
