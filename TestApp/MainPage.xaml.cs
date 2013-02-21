@@ -27,30 +27,21 @@ namespace TestApp
             this.InitializeComponent();
         }
 
+        private void btnAutoComplete_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AutoCompleteTest));
+        }
+
+        private void btnHexColor_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HexColorPickerTest));
+        }
+
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
         /// </summary>
         /// <param name="e">Event data that describes how this page was reached.  The Parameter
         /// property is typically used to configure the page.</param>
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            List<string> names = new List<string>();
-            names.Add("hermit");
-            names.Add("help");
-            names.Add("him");
-            names.Add("hang");
-            names.Add("his");
-            names.Add("dirty");
-            names.Add("laundry");
-            names.Add("somewhere");
-
-            this.actbNames.ItemsSource = names;
-        }
-
-        private async void btnPrompt_Click_1(object sender, RoutedEventArgs e)
-        {
-            MessageDialog md = new MessageDialog(this.actbNames.Text, "test");
-            await md.ShowAsync();
-        }
+        
     }
 }

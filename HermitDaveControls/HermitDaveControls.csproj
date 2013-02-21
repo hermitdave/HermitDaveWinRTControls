@@ -107,6 +107,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoCompleteTextBlock.cs" />
+    <Compile Include="ColorBaseControl.cs" />
+    <Compile Include="ColorHexagonPicker.cs" />
+    <Compile Include="ColorSpace.cs" />
+    <Compile Include="HexColor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
