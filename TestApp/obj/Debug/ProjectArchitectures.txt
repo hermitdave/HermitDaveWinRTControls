@@ -1,2 +1,2 @@
-D:\My Documents\GitHub\AutoCompleteBox-Win8\HermitDaveControls\HermitDaveControls.csproj;neutral
-D:\My Documents\GitHub\AutoCompleteBox-Win8\TestApp\TestApp.csproj;neutral
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\HermitDaveControls.csproj;neutral
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\TestApp\TestApp.csproj;neutral

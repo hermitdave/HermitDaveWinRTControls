@@ -139,5 +139,49 @@ namespace HermitDaveControls
             var temp = (byte)(value * MaxValue);
             return Color.FromArgb(255, temp, temp, temp);
         }
+
+        /// <summary>
+        /// Converts from the Red/Green/Blue color space to the Hue/Sat/Val (HSV) color space.
+        /// Algorithm ported from: http://www.codeproject.com/KB/recipes/colorspace1.aspx
+        /// </summary>
+        /// <param name="c">The color to convert.</param>
+        /// <returns></returns>
+        public static HSV ConvertRgbToHsv(Color c)
+        {
+            // normalize red, green and blue values
+
+            float r = (float)(c.R / 255.0);
+            float g = (float)(c.G / 255.0);
+            float b = (float)(c.B / 255.0);
+
+            // conversion start
+
+            float max = Math.Max(r, Math.Max(g, b));
+            float min = Math.Min(r, Math.Min(g, b));
+
+            float h = (float)0.0;
+            if (max == min)
+                h = (float)0.0;
+            else if (max == r && g >= b)
+            {
+                h = 60 * (g - b) / (max - min);
+            }
+            else if (max == r && g < b)
+            {
+                h = 60 * (g - b) / (max - min) + 360;
+            }
+            else if (max == g)
+            {
+                h = 60 * (b - r) / (max - min) + 120;
+            }
+            else if (max == b)
+            {
+                h = 60 * (r - g) / (max - min) + 240;
+            }
+            float s = (float)(max == 0 ? 0.0 : (1.0 - (min / max)));
+
+            return new HSV(h, s, max);
+
+        }
     }
 }

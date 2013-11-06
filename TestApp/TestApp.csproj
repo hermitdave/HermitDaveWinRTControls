@@ -110,6 +110,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AppbarColorPickerTest.xaml.cs">
+      <DependentUpon>AppbarColorPickerTest.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AutoCompleteTest.xaml.cs">
       <DependentUpon>AutoCompleteTest.xaml</DependentUpon>
     </Compile>
@@ -147,6 +150,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AppbarColorPickerTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AutoCompleteTest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

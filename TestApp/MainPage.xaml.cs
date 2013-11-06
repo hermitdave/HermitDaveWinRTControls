@@ -37,6 +37,11 @@ namespace TestApp
             this.Frame.Navigate(typeof(HexColorPickerTest));
         }
 
+        private void btnAppbarColorPicker_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AppbarColorPickerTest));
+        }
+
         /// <summary>
         /// Invoked when this page is about to be displayed in a Frame.
         /// </summary>

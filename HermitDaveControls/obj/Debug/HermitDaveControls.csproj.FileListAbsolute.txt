@@ -34,3 +34,24 @@ D:\My Documents\GitHub\AutoCompleteBox-Win8\HermitDaveControls\obj\Debug\layout.
 D:\My Documents\GitHub\AutoCompleteBox-Win8\HermitDaveControls\obj\Debug\resources.resfiles
 D:\My Documents\GitHub\AutoCompleteBox-Win8\HermitDaveControls\obj\Debug\pri.resfiles
 D:\My Documents\GitHub\AutoCompleteBox-Win8\HermitDaveControls\obj\Debug\LanguageQualifiers.txt
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\ColorPicker.g.i.cs
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\ColorPicker.g.cs
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\Themes\Generic.g.i.cs
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\Themes\Generic.g.cs
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\Themes\Generic.xaml
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\HermitDaveControls.dll
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\HermitDaveControls.pdb
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\bin\Debug\HermitDaveControls.dll
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\bin\Debug\HermitDaveControls.pdb
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\bin\Debug\HermitDaveControls.pri
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\ColorPicker.xaml
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\priconfig.xml.intermediate
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\layout.resfiles.intermediate
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\resources.resfiles.intermediate
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\pri.resfiles.intermediate
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\priconfig.xml
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\layout.resfiles
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\resources.resfiles
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\pri.resfiles
+C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\obj\Debug\LanguageQualifiers.txt

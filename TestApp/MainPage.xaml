@@ -12,5 +12,6 @@
     <toolkit:WrapPanel Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <Button x:Name="btnAutoComplete" Content="AutoComplete" FontSize="26" Margin="20, 20, 0, 0" Click="btnAutoComplete_Click" />
         <Button x:Name="btnHexColor" Content="HexColorPicker" FontSize="26" Margin="20, 20, 0, 0" Click="btnHexColor_Click" />
+        <Button x:Name="btnAppbarColorPicker" Content="Appbar Color Picker" FontSize="26" Margin="20, 20, 0, 0" Click="btnAppbarColorPicker_Click" />
     </toolkit:WrapPanel>
 </Page>
