@@ -1,1 +1,4 @@
-I have moved the code to WinRT-XAML-Controls project and this will no longer be maintained.
+HermitDaveControls
+==================
+
+My WinRT controls lib
