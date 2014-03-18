@@ -1,2 +1,0 @@
-C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\HermitDaveControls\HermitDaveControls.csproj;neutral
-C:\Users\hermitdave\Documents\GitHub\HermitDaveWinRTControls\TestApp\TestApp.csproj;neutral
